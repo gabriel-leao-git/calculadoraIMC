@@ -37,7 +37,9 @@ label {
   font-weight: bold;
 }
 
-input {
+input, select {
+  border-radius: 5px;
+  border: 1px solid;
   width: calc(100% - 16px);
   padding: 8px;
   margin-bottom: 5px;
@@ -122,4 +124,32 @@ a:visited {
 a:hover {
     color: #00736e;
 	/*background-color: darkgrey;*/
+}
+
+#botafogo {
+  font-weight: bold;
+  background: linear-gradient(45deg, #ffffff, #000000, #ff7eb3);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#fluminense {
+  font-weight: bold;
+  background: linear-gradient(45deg, #1c9a00, #fe0000, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#flamengo {
+  font-weight: bold;
+  background: linear-gradient(45deg, #ff0000, #000000, #ff0000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#vasco {
+  font-weight: bold;
+  background: linear-gradient(45deg, #000000, #fafafa, #000000);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
