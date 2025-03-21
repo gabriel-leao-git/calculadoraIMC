@@ -1,0 +1,125 @@
+body {
+  background: linear-gradient(to right, #00736e, #6a00c9);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.gradient-background {
+  /*background: linear-gradient(to right, #00736e, #6a00c9);*/
+  height: 100%; /* 100% da altura da tela */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  max-width: 400px;
+  margin: 10px auto;
+  text-align:center;
+  background-color: #000000;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+img {
+  width: 20%;
+  border-radius: 100%;
+  padding-top: 10px;
+}
+
+img:hover {
+  transform: scale(1.1);
+  transition: all 0.4s ease-in-out;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input {
+  width: calc(100% - 16px);
+  padding: 8px;
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #00e1ffd2;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+button:hover {
+  background-color: #6a00c9; 
+  color: #000000;
+  
+}
+
+#resultado-container {
+  margin-top: 10px;
+  background-color: #f2f2f2;
+  padding: 0px;
+  border-radius: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  display: block !important;
+}
+
+.outer-container {
+    background: rgb(31, 31, 31); /* Cor de fundo */
+    padding: 15px; /* Espaçamento interno */
+	border-radius: 10px; /* Valor do raio do arredondamento */
+    overflow: hidden; /* Garante que as bordas arredondadas se apliquem corretamente */
+}
+
+.social-icons {
+  color: white;
+	display: flex;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.social-icons a {
+  color: white;
+  font-size: 25px;
+  margin: 0 20px;
+
+
+}
+
+.social-icons a:visited {
+    color: white;
+    font-size: 25px;
+    margin: 0 10px;
+}
+
+.social-icons a:hover {
+    color: #6a00c9;
+    transform: scale(1.5);
+    transition: all 0.5s ease-in-out; 
+}
+
+footer {
+    background: rgb(31, 31, 31);
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+	border-radius: 10px; 
+    overflow: hidden; 
+	
+}
+
+a {
+  color: #03d5ff;
+}
+
+a:visited {
+    color: #00736e;
+}
+
+a:hover {
+    color: #00736e;
+	/*background-color: darkgrey;*/
+}
