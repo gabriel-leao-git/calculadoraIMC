@@ -22,22 +22,31 @@
 			</div>
 		</div>
     <a href="https://www.instagram.com/displaymax_frontend/"><img src="imagens/logo-insta-display-max.png" alt="Minha pagina do instagram"></a>
-	<h2 style="align-items: center; color: white; padding-top: 0px;">Calculadora de IMC</h2>
+	<h2 style="align-items: center; color: white; padding-top: 0px;">Votação do melhor time do Brasil</h2>
+    
+  <div class="form-group">
+    <label for="qtde">Quantas pessoas irão votar?</label>
+    <input type="numer" id="qtde" min="1" placeholder="Digite o númeto de pessoas que vão votar">
+  </div>
 
-    <label for="nome" style="color: white;">Nome:</label>
-    <input type="text" id="nome" placeholder="Digite seu nome">
-		
-	  <label for="peso">Peso (kg):</label>
-    <input type="number" id="peso" placeholder="Digite seu peso">
+  <div id="vote-section" style="display: none;">
+    <label for="team">Escolha seu time</label>
 
-    <label for="altura">Altura (m):</label>
-    <input type="number" id="altura" placeholder="Digite sua altura">
+    <select id="team">
+      <option value="1">1. Botafogo</option>
+      <option value="2">2. Flamengo</option>
+      <option value="3">3. Fluminense</option>
+      <option value="4">4. Vasco</option>
+    </select>
+  </div>
+  <button id="vote-btn">Votar</button>
 
-    <button onclick="calcularIMC()">Calcular IMC</button>
-
-    <div id="resultado-container">
-      <h3>Resultado:</h3>
-      <p id="resultado"></p>
+    <div id="result">
+      <h3>Resultado da Votação:</h3>
+      <p id="botafogo"> Botafogo: 0</p>
+      <p id="fluminense"> Fluminense: 0</p>
+      <p id="flamengo"> Flamengo: 0</p>
+      <p id="vasco"> Vasco: 0</p>
     </div>
 	
 	<footer>
