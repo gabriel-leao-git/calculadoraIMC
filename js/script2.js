@@ -11,8 +11,18 @@ function calcularIMC() {
   
   }
 
+  let qtdVotantes = 0;
+  let votos {Botafogo: 0, Flamengo: 0, Fluminense: 0, Vasco: 0};
+  let votosRestantes = 0;
 
+  function atualizaVotos(){
+            qtdVotantes = parseInt(document.getElementById("qtde") .value);
+            if (qtdVotantes > 0){
+                votosRestantes = qtdVotantes;
+                
+            }
 
+  }
 
 /*function calcularIMC() {
   console.log("Função calcularIMC() foi chamada!"); // Teste se a função está sendo chamada
